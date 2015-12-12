@@ -38,7 +38,10 @@ If you need more than that you'll have to pay.
 4. Get the CSE KEY here https://code.google.com/apis/console
   - You will need a project, you may reuse an existing one, or create a new one
   - Select the project
-  - Goto the API manager and create a server credential and use the key from that credential
+  - Click Credentials (on the left)
+  - New Credentials -> API Key -> Server Key
+  - Use that key for HUBOT_GOOGLE_CSE_KEY
+  - Also, go to your app's APIs, and enable the Custom Search Engine API
 5. Update your conf (and your modules if necessary)
 
 ### Custom Mustachification Service
